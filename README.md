@@ -1,4 +1,6 @@
-👋 Hi, I’m @Venkata-Gopi-Personal-Projects 💻 Senior Software Engineer | Gen AI | Backend Development | Data Infrastructure | Machine Learning
+# 👋 Hi, I’m @Yamparala-Venkata-Gopi
+
+💻 Senior Software Engineer | Gen AI | Backend Development | Data Infrastructure | Machine Learning
 
 🚀 I’m passionate about driving innovation through technology, with over 3 years of experience in backend development, data engineering, and machine learning. I specialize in designing scalable solutions that address complex challenges, from optimizing data pipelines to deploying AI-powered applications on cloud platforms.
 
@@ -8,8 +10,20 @@
 
 💞️ I’m looking to collaborate on projects that challenge the status quo, whether it's optimizing system performance, developing new ML-driven tools, or scaling platforms that deliver impactful solutions.
 
-📫 You can reach me at vgopi.yamparala@gmail.com or connect with me on LinkedIn (https://www.linkedin.com/in/venkata1b21131a5/) . I'm always open to discussing new opportunities, sharing ideas, or exploring potential collaborations.
+📫 You can reach me at vgopi.yamparala@gmail.com or connect with me on [LinkedIn](https://www.linkedin.com/in/venkata1b21131a5/). I'm always open to discussing new opportunities, sharing ideas, or exploring potential collaborations.
 
 😄 Pronouns: He/Him
 
 ⚡ Fun fact: When I'm not coding, you’ll find me brainstorming on how to leverage LLMs for new applications or diving into the latest tech trends to stay ahead of the curve.
+
+## 📊 GitHub Stats
+
+![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=Yamparala-Venkata-Gopi&show_icons=true&theme=radical)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Yamparala-Venkata-Gopi&layout=compact&theme=radical)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Yamparala-Venkata-Gopi&theme=radical)
+
+## 🏆 GitHub Trophies
+
+![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=Yamparala-Venkata-Gopi&theme=radical)
