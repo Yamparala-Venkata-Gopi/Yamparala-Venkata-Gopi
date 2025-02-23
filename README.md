@@ -1,20 +1,12 @@
-# 👋 Hi, I’m @Yamparala-Venkata-Gopi
-
-💻 Senior Software Engineer | Gen AI | Backend Development | Data Infrastructure | Machine Learning
-
-🚀 I’m passionate about driving innovation through technology, with over 3 years of experience in backend development, data engineering, and machine learning. I specialize in designing scalable solutions that address complex challenges, from optimizing data pipelines to deploying AI-powered applications on cloud platforms.
-
-👀 I’m deeply interested in experimenting with Large Language Models (LLMs), using tools like LangChain and vector databases to build AI-driven solutions that push the possible boundaries. My current focus is on enhancing user interactions with BIM models through NLP and LLM integration.
-
-🌱 I’m continuously exploring cloud-native technologies, container orchestration, and advanced machine-learning frameworks to stay at the forefront of technology. My goal is to blend cutting-edge tools with practical applications, making innovative ideas a reality.
-
-💞️ I’m looking to collaborate on projects that challenge the status quo, whether it's optimizing system performance, developing new ML-driven tools, or scaling platforms that deliver impactful solutions.
-
-📫 You can reach me at vgopi.yamparala@gmail.com or connect with me on [LinkedIn](https://www.linkedin.com/in/venkata1b21131a5/). I'm always open to discussing new opportunities, sharing ideas, or exploring potential collaborations.
-
+👋 Hi, I'm @Yamparala-Venkata-Gopi
+💻 Founding Engineer | Full Stack Development | ML Systems | API Security
+🚀 I'm passionate about building scalable enterprise systems, with over 3 years of experience in full-stack development and cloud infrastructure. I specialize in optimizing system performance and building enterprise-grade applications that have contributed to projects valued at over $1.5M.
+👀 Currently at Levo.ai, I'm focused on revolutionizing API security through innovative solutions. From implementing agentless API discovery to migrating services for 45% better performance, I love tackling challenges that push systems to perform better.
+🌱 Previously at IndiaMART, I architected ML systems achieving 99.9% uptime and reduced response times by 62.5% through innovative caching solutions. My expertise spans from deploying containerized ML models to building high-performance APIs that handle millions of queries.
+💞️ I'm looking to collaborate on projects that challenge conventional thinking, whether it's building scalable architectures, optimizing system performance, or creating innovative solutions that make a real impact.
+📫 You can reach me at vgopi.yamparala@gmail.com or connect with me on LinkedIn. Always excited to discuss tech, share ideas, or explore new opportunities.
 😄 Pronouns: He/Him
-
-⚡ Fun fact: When I'm not coding, you’ll find me brainstorming on how to leverage LLMs for new applications or diving into the latest tech trends to stay ahead of the curve.
+⚡ Fun fact: When I'm not optimizing system performance, you'll find me experimenting with new technologies or brainstorming ways to make APIs more efficient and secure.
 
 ## 📊 GitHub Stats
 
