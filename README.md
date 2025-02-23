@@ -1,12 +1,20 @@
-👋 Hi, I'm @Yamparala-Venkata-Gopi
-💻 Founding Engineer | Full Stack Development | ML Systems | API Security
-🚀 I'm passionate about building scalable enterprise systems, with over 3 years of experience in full-stack development and cloud infrastructure. I specialize in optimizing system performance and building enterprise-grade applications that have contributed to projects valued at over $1.5M.
-👀 Currently at Levo.ai, I'm focused on revolutionizing API security through innovative solutions. From implementing agentless API discovery to migrating services for 45% better performance, I love tackling challenges that push systems to perform better.
-🌱 Previously at IndiaMART, I architected ML systems achieving 99.9% uptime and reduced response times by 62.5% through innovative caching solutions. My expertise spans from deploying containerized ML models to building high-performance APIs that handle millions of queries.
-💞️ I'm looking to collaborate on projects that challenge conventional thinking, whether it's building scalable architectures, optimizing system performance, or creating innovative solutions that make a real impact.
-📫 You can reach me at vgopi.yamparala@gmail.com or connect with me on LinkedIn. Always excited to discuss tech, share ideas, or explore new opportunities.
+# 👋 Hi, I'm @Yamparala-Venkata-Gopi
+
+💻 Senior Software Engineer | Full Stack Development | ML & API Engineering | Cloud Infrastructure
+
+🚀 I'm passionate about driving innovation through technology, with over 3 years of experience in building enterprise-grade applications. I specialize in designing scalable solutions that address complex challenges, from optimizing system performance to building secure API infrastructures, contributing to projects valued at over $1.5M.
+
+👀 I'm deeply interested in building high-performance systems, from implementing ML models with 99.9% uptime to reducing API latencies by 45%. My current focus is on revolutionizing API security and monitoring at Levo.ai, where I'm building solutions that help enterprises better understand and secure their API ecosystem.
+
+🌱 I'm continuously exploring cloud-native technologies, container orchestration, and advanced caching mechanisms. At IndiaMART, I slashed response times by 62.5% and improved search accuracy by 20% through innovative solutions. My goal is to blend cutting-edge tools with practical applications that deliver real business impact.
+
+💞️ I'm looking to collaborate on projects that challenge the status quo, whether it's optimizing system performance, developing scalable architectures, or building enterprise solutions that make a difference.
+
+📫 You can reach me at vgopi.yamparala@gmail.com or connect with me on [LinkedIn](https://www.linkedin.com/in/venkata1b21131a5/). I'm always open to discussing new opportunities, sharing ideas, or exploring potential collaborations.
+
 😄 Pronouns: He/Him
-⚡ Fun fact: When I'm not optimizing system performance, you'll find me experimenting with new technologies or brainstorming ways to make APIs more efficient and secure.
+
+⚡ Fun fact: When I'm not coding, you'll find me brainstorming ways to make systems faster or exploring new technologies to stay ahead of the curve.
 
 ## 📊 GitHub Stats
 
