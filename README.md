@@ -18,12 +18,12 @@
 
 ## 📊 GitHub Stats
 
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=Yamparala-Venkata-Gopi&show_icons=true&theme=radical)
+![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=Yamparala-Venkata-Gopi&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Yamparala-Venkata-Gopi&layout=compact&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Yamparala-Venkata-Gopi&layout=compact&theme=radical&hide_border=true&langs_count=6)
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Yamparala-Venkata-Gopi&theme=radical)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Yamparala-Venkata-Gopi&theme=radical&hide_border=true)
 
 ## 🏆 GitHub Trophies
 
-![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=Yamparala-Venkata-Gopi&theme=radical)
+![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=Yamparala-Venkata-Gopi&theme=radical&no-frame=true&no-bg=true&margin-w=4&row=2&column=3)
