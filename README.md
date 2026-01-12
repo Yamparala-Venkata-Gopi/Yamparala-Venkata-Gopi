@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Gopi</h1>
+<h1 align="center">Hi 👋, I'm Venkata Gopi Yamparala </h1>
 <h3 align="center">I like building systems that run close to real traffic</h3>
 
 <p align="center">
