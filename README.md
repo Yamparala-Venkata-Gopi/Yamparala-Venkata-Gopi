@@ -55,14 +55,26 @@ Python · Go · TypeScript · FastAPI · Flask · GraphQL · Docker · Kubernete
 
 ### 📊 GitHub
 
-Most of my day-to-day work lives in private repos, so public stats don’t show everything — this space is mostly for experiments, side projects, and ideas I want to try in the open.
+Most of my work happens in private repositories, but I still use GitHub as a place to experiment, prototype ideas, and build things in the open. The stats below reflect public activity and side projects over time.
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=Yamparala-Venkata-Gopi&show_icons=true&hide_border=true" />
+<img src="https://komarev.com/ghpvc/?username=Yamparala-Venkata-Gopi&label=Profile%20views&color=0e75b6&style=flat" />
 </p>
 
 <p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Yamparala-Venkata-Gopi&hide_border=true" />
+<img src="https://github-readme-stats.vercel.app/api?username=Yamparala-Venkata-Gopi&show_icons=true&hide_border=true&rank_icon=github&cache_seconds=86400" />
+</p>
+
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yamparala-Venkata-Gopi&layout=compact&hide_border=true" />
+</p>
+
+<p align="center">
+<img src="https://streak-stats.demolab.com?user=Yamparala-Venkata-Gopi&hide_border=true" />
+</p>
+
+<p align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=Yamparala-Venkata-Gopi&no-frame=true&margin-w=10&row=1" />
 </p>
 
 ---
