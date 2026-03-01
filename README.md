@@ -36,60 +36,55 @@
 
 <div align="center">
 
-### `4+ years` &nbsp;·&nbsp; `11 systems shipped to production` &nbsp;·&nbsp; `2 startups tried` &nbsp;·&nbsp; `0 problems handed back unsolved`
+**`4+ years shipping`** &nbsp;·&nbsp; **`11 production systems`** &nbsp;·&nbsp; **`2 companies started`** &nbsp;·&nbsp; **`0 problems sent back unsolved`**
 
 </div>
 
 ---
 
-## The Real Introduction
+## The Short Version
 
-I'm not a task-taker.
+I'm not a task-taker. Give me a problem — I'll come back with a shipped solution.
 
-I'm the engineer you hand a problem to and get back a **working, production-ready solution** — with no spec doc, no PM, and no hand-holding required.
+At **Levo.ai** I joined as a founding engineer before the product was defined. I talked to enterprise customers, found the gaps, and built the infrastructure they now depend on daily: kernel-level traffic sensors, API security engines, agentless discovery tooling, and a CLI built from zero. At **IndiaMART**, I ran ML search infrastructure at millions-of-queries-per-day scale.
 
-At **Levo.ai**, I joined as a founding engineer when the product was still being defined. I talked to enterprise customers to understand their pain, identified the gaps in our security coverage, designed the systems from scratch, and shipped them. Everything I've built is running in production right now, at real companies, handling real traffic.
+I've also tried to build 2 companies. Both failed. Both taught me more than any job ever has.
 
-Before that, I ran ML search infrastructure at **IndiaMART** — one of India's largest B2B platforms — keeping systems at 98.9% uptime under millions of daily queries while cutting response times in half.
-
-And before that? I tried to build two companies. **Both failed.** I learned more from those 18 months than from any course, any bootcamp, or any job I've had. I know what it means to own something completely — from customer conversation to architecture to deployment to post-mortem.
-
-That's why "Founding Engineer" isn't just a title for me. **It's how I think.**
+Here's what 4+ years of owning problems end-to-end looks like:
 
 ---
 
-## What I've Shipped — With Receipts
+## Shipped — Numbers Don't Lie
 
-| | System | Impact |
+| | What | Outcome |
 |---|---|---|
-| 🔬 | **eBPF traffic sensor** with OpenSSL + BoringSSL TLS inspection | TLS visibility across **60% of observed customer environments** |
-| 🪟 | **Windows PCAP sensor** as a persistent Windows service | **+30%** threat detection coverage for enterprise clients |
-| 🔌 | **Native IIS HTTP/HTTPS kernel filter** for enterprise IIS workloads | **+40%** observability, unlocked forensic analysis at wire level |
-| 🛡️ | **GraphQL security engine** — auth, batching, introspection, injection tests | Full modern API coverage: REST + GraphQL + SOAP under one engine |
-| 🛠️ | **API security CLI** built 0→1 | Terminal-first testing: auth flows, traffic uploads, scan triggers |
-| 📄 | **Agentless HAR-based API discovery** | **+20%** customer adoption by eliminating the agent install step |
-| ⚡ | **Flask → FastAPI** service migration | **45% latency reduction**, **2× request throughput** |
-| 📡 | **Signoz observability** rollout across all services | **30% faster** incident resolution across the engineering team |
-| 🗄️ | **Redis cache layer** for ML search at IndiaMART | **40ms → 15ms** response time — 62.5% improvement at millions-of-queries scale |
-| 🤖 | **ML model + search API infrastructure** at IndiaMART | **98.9% uptime**, 20% search accuracy improvement, 30% faster queries |
-| 📦 | **SQL-driven data pipeline automation** | **90% of extraction automated**, 60% manual effort eliminated |
+| 🔬 | **eBPF sensor** with OpenSSL + BoringSSL TLS inspection *(Levo.ai)* | TLS visibility across **60% of customer environments** |
+| 🪟 | **Windows PCAP sensor** as a persistent Windows service *(Levo.ai)* | **+30%** threat detection coverage across enterprise clients |
+| 🔌 | **Native IIS HTTP/HTTPS kernel filter** for enterprise IIS *(Levo.ai)* | **+40%** observability — wire-level traffic without touching app code |
+| 🛡️ | **GraphQL security engine** — auth, batching, introspection, injection *(Levo.ai)* | REST + GraphQL + SOAP under one security engine |
+| 🛠️ | **API security CLI**, built 0→1 *(Levo.ai)* | Terminal-first: auth flows, traffic uploads, scan triggers |
+| 📄 | **Agentless HAR-based API discovery** *(Levo.ai)* | **+20%** customer adoption by removing the agent install requirement |
+| ⚡ | **Flask → FastAPI** migration across services *(Levo.ai)* | **45% latency drop**, **2× request throughput** |
+| 📡 | **Signoz observability** rollout across all applications *(Levo.ai)* | **30% faster** incident resolution across the team |
+| 🗄️ | **Redis cache layer** for ML search *(IndiaMART)* | **40ms → 15ms** — 62.5% improvement at millions-of-queries scale |
+| 🤖 | **ML model + search API infra** *(IndiaMART)* | **98.9% uptime**, +20% search accuracy, queries 30% faster |
+| 📦 | **SQL data pipeline automation** *(IndiaMART)* | 90% of extraction automated, 60% manual effort eliminated |
 
 ---
 
 ## I've Also Tried to Build Companies
 
-Most engineers write code. Fewer try to build products. I've done both — and failed at it — which is worth more than you'd think.
+Most engineers write code. Fewer try to build products. I've done both — and failed — which is worth more than you'd think.
 
-**Build Verge Inc** — *AI-Powered AEC Platform (failed)*
-> Collaborated with Stanford-educated engineers to build an NLP + BIM platform that automated construction workflows using LLMs. We generated rooms, walls, doors, and structural elements from language prompts. We ran into product-market fit issues and didn't get funding. The research continues.
+**Build Verge Inc** — AI-Powered AEC Platform *(with Stanford engineers)*
+> Built an NLP + BIM platform to automate construction workflows using LLMs — generating rooms, walls, doors, voids programmatically from language prompts. Ran into product-market fit and funding walls. The research lives on.
 
-**Washbe** — *On-Demand Laundry Service (failed)*
-> Launched a React Native-based laundry platform with real-time scheduling for campus users. COVID hit. The market changed faster than we could pivot. We didn't make it.
+**Washbe** — On-Demand Campus Laundry
+> Launched a React Native-based laundry platform with real-time scheduling. COVID hit. The market changed faster than we could pivot.
 
-Both failed. Both taught me things you can't learn from a job description:
-- How to talk to customers and understand what they actually need
-- How to make architectural decisions under complete uncertainty
-- How to ship fast, break things, and keep going anyway
+Both failed. I learned what you can't learn from any job: how to define a problem without a PM, talk to customers without a script, make architectural bets with no safety net, and keep shipping even when it's not working.
+
+**That's the founder mindset. That's what I bring to an engineering team.**
 
 ---
 
@@ -187,8 +182,8 @@ type Focus struct {
 
 currentWork := []Focus{
     {"eBPF + XDP",              "Wire-level packet processing — no kernel modules, no overhead assumptions"},
-    {"Agentic Debug Tooling",   "AI-assisted root cause analysis for production incidents"},
-    {"API Behavioral Drift",    "Detecting when APIs deviate from their production baselines"},
+    {"Agentic Debug Tooling",   "AI-assisted root cause analysis for live production incidents"},
+    {"API Behavioral Drift",    "Detecting when APIs deviate from their established production baseline"},
     {"OpenTelemetry Internals", "What tracing frameworks actually do — and what they still miss"},
 }
 ```
