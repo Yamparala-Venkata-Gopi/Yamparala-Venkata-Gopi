@@ -1,85 +1,87 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:0a192f,100:0e75b6&height=140&section=header&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,25:060d1f,60:0a192f,100:0e75b6&height=210&section=header&animation=fadeIn&fontColor=58A6FF&text=Venkata%20Gopi%20Yamparala&fontSize=44&fontAlignY=40&desc=Founding%20Engineer%20%40%20Levo.ai%20%7C%20Austin%2C%20TX&descAlignY=62&descSize=17&descColor=8b9cbd" />
+
+</div>
+
+<div align="center">
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Hey+there%2C+I'm+Gopi+%F0%9F%91%8B;Founding+Engineer+%40+Levo.ai;I+build+things+in+the+hot+path;APIs+%C2%B7+Observability+%C2%B7+Security+%C2%B7+eBPF" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1200&color=58A6FF&center=true&vCenter=true&width=820&lines=I+build+systems+that+run+close+to+real+traffic;eBPF+%C2%B7+Runtime+Observability+%C2%B7+API+Security;If+it+breaks+at+3am%2C+I%27ve+probably+already+seen+it;Founding+Engineer+%40+Levo.ai+%E2%80%94+Open+to+What%27s+Next" alt="Typing SVG" />
 </a>
 
-<br/>
+<br/><br/>
 
-<p>
-  <img src="https://img.shields.io/badge/📍_Austin,_TX-0a192f?style=for-the-badge&logoColor=58A6FF" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/⚡_Founding_Engineer_%40_Levo.ai-0e75b6?style=for-the-badge" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/🟢_Open_to_Opportunities-1a7f37?style=for-the-badge" />
-</p>
+<a href="https://www.linkedin.com/in/venkata-gopi-yamparala">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+&nbsp;
+<a href="mailto:vgopi.yamparala@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+&nbsp;
+<img src="https://komarev.com/ghpvc/?username=Yamparala-Venkata-Gopi&style=for-the-badge&color=0e75b6&label=PROFILE+VIEWS" />
 
-<p>
-  <a href="https://www.linkedin.com/in/venkata-gopi-yamparala">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  &nbsp;
-  <a href="mailto:vgopi.yamparala@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=Yamparala-Venkata-Gopi&style=for-the-badge&color=0e75b6&label=PROFILE+VIEWS" />
-</p>
+<br/><br/>
+
+<img src="https://img.shields.io/badge/📍_Austin%2C_TX-0a192f?style=flat-square&color=1c2940&labelColor=1c2940" />
+&nbsp;
+<img src="https://img.shields.io/badge/🟢_Open_to_Opportunities-163b1e?style=flat-square&color=163b1e&labelColor=163b1e" />
+&nbsp;
+<img src="https://img.shields.io/badge/⚡_Kernel_%26_Systems_Engineer-0e3a5c?style=flat-square&color=0e3a5c&labelColor=0e3a5c" />
 
 </div>
 
 ---
 
-<img align="right" width="320" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yamparala-Venkata-Gopi&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" />
+## 👤 Who Am I
 
-### 👋 Who am I?
+I'm an engineer who lives at the intersection of **systems programming and production reality**.
 
-I'm a software engineer obsessed with **what systems actually do in production** — not what the docs say they do.
+As a **Founding Engineer at Levo.ai**, I built the infrastructure that makes APIs expose their own behavior — kernel-level traffic capture using eBPF, behavioral fingerprinting at scale, and security tooling that operates directly on real traffic without modifying application code.
 
-As a **Founding Engineer at Levo.ai**, I work on the hot path:
-runtime API observability, traffic analysis, and security tooling
-that catches real threats from real traffic.
+I'm not a tutorial-follow-along engineer. I'm the person you call when:
+- the stack trace is incomplete and something weird is only happening under real load
+- you need something built from scratch and need it to hold up in production
+- the observability data doesn't tell the whole story and you need to go deeper
 
-I'm happiest in **early-stage environments** where the architecture
-is still being argued over and there's room to experiment,
-break things, and rebuild them better.
+**What makes me different:**
+- eBPF experience is genuinely rare — I've written production BPF programs, not just used wrappers
+- Founding engineer background means I've made architectural decisions, not just executed on them
+- I think in systems — data flow, failure modes, and "what actually happens" vs "what we assume happens"
 
-> *"Make invisible problems visible before they become a 3am incident."*
-
-<br clear="right"/>
+> *"Make invisible production behavior visible before it becomes a 3am incident."*
 
 ---
 
-## ⚡ What I Actually Build
+## 🔬 What I Build
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-**🔬 Runtime Observability**
-Understanding what systems *actually* do at runtime — not what we think they do. eBPF-powered introspection, traffic capture, and behavioral analysis.
+### Kernel-Level Observability
+eBPF programs that intercept and inspect API traffic **before it leaves the kernel** — zero application modifications, zero performance overhead assumptions. Not logs. Not metrics. Wire-level truth.
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-**🛡️ API Security**
-Real traffic-driven threat detection. Not checkbox compliance, not synthetic tests — actual production behavior fingerprinting.
+### Behavioral API Security
+Fingerprinting what APIs *actually* do under real production load — then detecting when behavior drifts from baseline. Not synthetic scans, not checkbox compliance. Ground truth from traffic.
 
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-**⚡ Performance Engineering**
-Finding bottlenecks before users do. Profiling hot paths, debugging latency spikes, hunting the weird edge cases that only show up under real load.
+### Hot-Path Performance Engineering
+Profiling at the wire, not the application layer. Chasing **actual** bottlenecks — not assumed ones. Latency spike debugging, p99 regression analysis, and hunting edge cases that only surface at scale.
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-**🛠️ Developer Tooling**
-CLIs, internal platforms, and debugging tools that engineers actually want to use. If it saves an engineer an hour a day, it's worth building.
+### Developer Tooling That Gets Adopted
+CLIs, internal platforms, and debug tools engineers actually reach for. If the team stops doing something manually because of a tool I built, that counts as a win.
 
 </td>
 </tr>
@@ -87,7 +89,7 @@ CLIs, internal platforms, and debugging tools that engineers actually want to us
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Stack
 
 <div align="center">
 
@@ -96,14 +98,15 @@ CLIs, internal platforms, and debugging tools that engineers actually want to us
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
 
-**Backend & APIs**
+**APIs & Backend**
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
-![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
 ![gRPC](https://img.shields.io/badge/gRPC-244c5a?style=for-the-badge&logo=google&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
 
 **Infrastructure & Cloud**
 
@@ -111,16 +114,18 @@ CLIs, internal platforms, and debugging tools that engineers actually want to us
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 **Data & Storage**
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
-**Low-level & Specialty**
+**Specialty — where things get interesting**
 
 ![eBPF](https://img.shields.io/badge/eBPF-FF6600?style=for-the-badge&logo=linux&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![XDP](https://img.shields.io/badge/XDP-c0392b?style=for-the-badge&logo=linux&logoColor=white)
+![BCC](https://img.shields.io/badge/BCC_Tools-363636?style=for-the-badge&logo=linux&logoColor=white)
 
 </div>
 
@@ -128,18 +133,32 @@ CLIs, internal platforms, and debugging tools that engineers actually want to us
 
 ## 📊 GitHub Stats
 
-> Most of my production work lives in private repos — these reflect open-source experiments and side projects.
+> Most production work lives in private repos at Levo.ai. Public activity reflects open experiments and side projects.
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=Yamparala-Venkata-Gopi&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true&cache_seconds=86400&count_private=true" />
+<img height="185" src="https://github-readme-stats.vercel.app/api?username=Yamparala-Venkata-Gopi&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true&cache_seconds=86400" />
 &nbsp;&nbsp;
-<img height="180" src="https://streak-stats.demolab.com?user=Yamparala-Venkata-Gopi&theme=tokyonight&hide_border=true" />
+<img height="185" src="https://streak-stats.demolab.com?user=Yamparala-Venkata-Gopi&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" />
+
+<br/>
+
+<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Yamparala-Venkata-Gopi&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution+Activity" />
 
 </div>
 
+---
+
+## 🐍 Contribution Snake
+
 <div align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Yamparala-Venkata-Gopi&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution+Activity" />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Yamparala-Venkata-Gopi/Yamparala-Venkata-Gopi/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Yamparala-Venkata-Gopi/Yamparala-Venkata-Gopi/output/github-contribution-grid-snake.svg" />
+  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/Yamparala-Venkata-Gopi/Yamparala-Venkata-Gopi/output/github-contribution-grid-snake-dark.svg" />
+</picture>
+
 </div>
 
 ---
@@ -147,11 +166,16 @@ CLIs, internal platforms, and debugging tools that engineers actually want to us
 ## 🧠 Currently Exploring
 
 ```go
-currentFocus := []string{
-    "Deep runtime introspection with eBPF",
-    "Agentic tooling for debugging & automated testing",
-    "API behavior fingerprinting under real production traffic",
-    "Making distributed systems easier to reason about at 2am",
+type Focus struct {
+	Topic  string
+	Why    string
+}
+
+currentWork := []Focus{
+	{"eBPF + XDP",             "Wire-level packet processing — no kernel modules, no compromises"},
+	{"Agentic Debug Tooling",  "AI-assisted root cause analysis for production incidents"},
+	{"API Behavioral Drift",   "Detecting when API behavior deviates from established baseline"},
+	{"Distributed Tracing",    "Understanding what tracing frameworks actually do under the hood"},
 }
 ```
 
@@ -159,9 +183,9 @@ currentFocus := []string{
 
 ## 🤝 Let's Talk
 
-I'm always up for conversations about **backend systems, API security, observability, early-stage infrastructure** — or just how interesting systems fail in production.
+The best things I've built started with *"have you seen this weird edge case?"*
 
-The best things I've built started with someone saying *"have you seen this weird edge case?"*
+If you're working on **backend infrastructure, API security, platform engineering, or observability tooling** — or building something early-stage where architecture decisions still matter — I want to hear about it.
 
 <div align="center">
 
@@ -175,6 +199,45 @@ The best things I've built started with someone saying *"have you seen this weir
 
 <br/><br/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0e75b6,50:0a192f,100:0d1117&height=100&section=footer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0e75b6,40:0a192f,75:060d1f,100:0d1117&height=130&section=footer" />
 
 </div>
+
+---
+
+<details>
+<summary>⚙️ Enable the contribution snake animation</summary>
+
+<br/>
+
+Create `.github/workflows/snake.yml` in this repo:
+
+```yaml
+name: Generate Snake Animation
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+      - uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
+Then: **Actions → Generate Snake Animation → Run workflow**
+
+</details>
