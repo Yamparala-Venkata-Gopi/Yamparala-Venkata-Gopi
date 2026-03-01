@@ -1,13 +1,13 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,25:060d1f,60:0a192f,100:0e75b6&height=210&section=header&animation=fadeIn&fontColor=58A6FF&text=Venkata%20Gopi%20Yamparala&fontSize=44&fontAlignY=40&desc=Founding%20Engineer%20%40%20Levo.ai%20%7C%20Austin%2C%20TX&descAlignY=62&descSize=17&descColor=8b9cbd" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,25:060d1f,55:0a192f,100:0e75b6&height=200&section=header&animation=fadeIn&fontColor=58A6FF&text=Venkata%20Gopi%20Yamparala&fontSize=46&fontAlignY=40&desc=Founding%20Engineer%20%40%20Levo.ai%20%7C%20Austin%2C%20TX&descAlignY=62&descSize=17&descColor=8b9cbd" />
 
 </div>
 
 <div align="center">
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1200&color=58A6FF&center=true&vCenter=true&width=820&lines=I+build+systems+that+run+close+to+real+traffic;eBPF+%C2%B7+Runtime+Observability+%C2%B7+API+Security;If+it+breaks+at+3am%2C+I%27ve+probably+already+seen+it;Founding+Engineer+%40+Levo.ai+%E2%80%94+Open+to+What%27s+Next" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3000&pause=1200&color=58A6FF&center=true&vCenter=true&width=860&lines=eBPF+sensor+%C2%B7+Windows+PCAP+%C2%B7+IIS+filter+%C2%B7+API+Security;45%25+latency+cut.+62.5%25+faster+APIs.+Numbers+from+production.;Founding+Engineer+%40+Levo.ai+%E2%80%94+4%2B+years+shipping+real+infra;Open+to+roles+where+systems+depth+actually+matters" alt="Typing SVG" />
 </a>
 
 <br/><br/>
@@ -24,81 +24,67 @@
 
 <br/><br/>
 
-<img src="https://img.shields.io/badge/📍_Austin%2C_TX-0a192f?style=flat-square&color=1c2940&labelColor=1c2940" />
+<img src="https://img.shields.io/badge/📍_Austin%2C_TX-1c2940?style=flat-square&labelColor=1c2940&color=1c2940" />
 &nbsp;
-<img src="https://img.shields.io/badge/🟢_Open_to_Opportunities-163b1e?style=flat-square&color=163b1e&labelColor=163b1e" />
+<img src="https://img.shields.io/badge/🟢_Open_to_Opportunities-163b1e?style=flat-square&labelColor=163b1e&color=163b1e" />
 &nbsp;
-<img src="https://img.shields.io/badge/⚡_Kernel_%26_Systems_Engineer-0e3a5c?style=flat-square&color=0e3a5c&labelColor=0e3a5c" />
+<img src="https://img.shields.io/badge/MS_CS_—_Illinois_Tech-1c2940?style=flat-square&labelColor=1c2940&color=1c2940" />
 
 </div>
 
 ---
 
-## 👤 Who Am I
+## Who Am I
 
-I'm an engineer who lives at the intersection of **systems programming and production reality**.
+I'm a backend and systems engineer with **4+ years** shipping production infrastructure that enterprise teams depend on daily.
 
-As a **Founding Engineer at Levo.ai**, I built the infrastructure that makes APIs expose their own behavior — kernel-level traffic capture using eBPF, behavioral fingerprinting at scale, and security tooling that operates directly on real traffic without modifying application code.
+At **[Levo.ai](https://levo.ai)** as Founding Engineer, I've built:
+- A **Windows PCAP sensor** as a Windows service for real-time network traffic capture — improved threat detection coverage by **30%**
+- A **native IIS HTTP/HTTPS filter** at the kernel level for enterprise IIS workloads — increased observability by **40%**
+- **eBPF traffic capture with OpenSSL + BoringSSL TLS inspection** — expanded TLS coverage across **60% of observed environments**
+- The **API security engine** extended from REST-only → GraphQL (auth, batching, introspection, injection) + SOAP
+- An **agentless HAR-based API discovery** approach that cut onboarding friction and drove **+20% customer adoption**
+- A **CLI security testing tool from 0→1** — terminal-first, supporting auth, traffic uploads, and scan triggers
+- **Flask → FastAPI** migration across services — **45% latency reduction**, **2× request throughput**
 
-I'm not a tutorial-follow-along engineer. I'm the person you call when:
-- the stack trace is incomplete and something weird is only happening under real load
-- you need something built from scratch and need it to hold up in production
-- the observability data doesn't tell the whole story and you need to go deeper
+At **IndiaMART** (India's largest B2B marketplace), I ran ML search infrastructure at scale:
+- Built a **cache layer** that dropped response times from **40ms → 15ms** (62.5% improvement) under millions of daily queries
+- API integrations with ML models maintaining **98.9% uptime** while improving search accuracy by 20%
+- Automated **90% of data extraction**, eliminating 60% of manual effort
 
-**What makes me different:**
-- eBPF experience is genuinely rare — I've written production BPF programs, not just used wrappers
-- Founding engineer background means I've made architectural decisions, not just executed on them
-- I think in systems — data flow, failure modes, and "what actually happens" vs "what we assume happens"
-
-> *"Make invisible production behavior visible before it becomes a 3am incident."*
-
----
-
-## 🔬 What I Build
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### Kernel-Level Observability
-eBPF programs that intercept and inspect API traffic **before it leaves the kernel** — zero application modifications, zero performance overhead assumptions. Not logs. Not metrics. Wire-level truth.
-
-</td>
-<td width="50%" valign="top">
-
-### Behavioral API Security
-Fingerprinting what APIs *actually* do under real production load — then detecting when behavior drifts from baseline. Not synthetic scans, not checkbox compliance. Ground truth from traffic.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### Hot-Path Performance Engineering
-Profiling at the wire, not the application layer. Chasing **actual** bottlenecks — not assumed ones. Latency spike debugging, p99 regression analysis, and hunting edge cases that only surface at scale.
-
-</td>
-<td width="50%" valign="top">
-
-### Developer Tooling That Gets Adopted
-CLIs, internal platforms, and debug tools engineers actually reach for. If the team stops doing something manually because of a tool I built, that counts as a win.
-
-</td>
-</tr>
-</table>
+I think in systems. I care about what code *actually does* under real load — not what it does in a sandbox.
 
 ---
 
-## 🛠️ Stack
+## Shipped — Production Systems With Measurable Outcomes
+
+| | What I Shipped | Where | Outcome |
+|---|---|---|---|
+| 🔬 | eBPF sensor + OpenSSL/BoringSSL TLS inspection | Levo.ai | TLS traffic visibility across **60% of envs** |
+| 🪟 | Windows PCAP sensor as a Windows service | Levo.ai | **+30%** threat detection coverage |
+| 🔌 | Native IIS HTTP/HTTPS kernel filter | Levo.ai | **+40%** observability across enterprise IIS |
+| 🛡️ | GraphQL security engine (auth + batching + injection) | Levo.ai | Full modern API stack coverage |
+| 🛠️ | API security CLI — built from zero | Levo.ai | Terminal-first testing: auth, upload, scan |
+| 📄 | Agentless HAR-based API discovery | Levo.ai | **+20%** customer adoption |
+| ⚡ | Flask → FastAPI service migration | Levo.ai | **45% latency drop**, **2× throughput** |
+| 📡 | Signoz observability rollout across all apps | Levo.ai | **30% faster** incident resolution |
+| 🗄️ | ML search cache (Redis-backed) | IndiaMART | **40ms → 15ms** response (62.5% faster) |
+| 🤖 | ML model + search API infra | IndiaMART | **98.9% uptime**, 20% search accuracy gain |
+| 📦 | SQL-driven data pipeline automation | IndiaMART | **90% automated**, 60% less manual effort |
+
+---
+
+## Stack
 
 <div align="center">
 
-**Languages I reach for first**
+**Languages**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+![C/C++](https://img.shields.io/badge/C%2FC%2B%2B-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 
 **APIs & Backend**
 
@@ -107,11 +93,13 @@ CLIs, internal platforms, and debug tools engineers actually reach for. If the t
 ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
 ![gRPC](https://img.shields.io/badge/gRPC-244c5a?style=for-the-badge&logo=google&logoColor=white)
 ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
 
 **Infrastructure & Cloud**
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
@@ -119,21 +107,28 @@ CLIs, internal platforms, and debug tools engineers actually reach for. If the t
 **Data & Storage**
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
-**Specialty — where things get interesting**
+**Observability & Monitoring**
+
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Signoz](https://img.shields.io/badge/Signoz-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![Temporal](https://img.shields.io/badge/Temporal-000000?style=for-the-badge&logo=temporal&logoColor=white)
+
+**Low-Level & Specialty**
 
 ![eBPF](https://img.shields.io/badge/eBPF-FF6600?style=for-the-badge&logo=linux&logoColor=white)
-![XDP](https://img.shields.io/badge/XDP-c0392b?style=for-the-badge&logo=linux&logoColor=white)
-![BCC](https://img.shields.io/badge/BCC_Tools-363636?style=for-the-badge&logo=linux&logoColor=white)
+![PCAP](https://img.shields.io/badge/PCAP%2FWinPcap-1a1a2e?style=for-the-badge&logo=wireshark&logoColor=white)
+![TLS](https://img.shields.io/badge/TLS_Inspection-2c3e50?style=for-the-badge&logo=letsencrypt&logoColor=white)
 
 </div>
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
 
-> Most production work lives in private repos at Levo.ai. Public activity reflects open experiments and side projects.
+> Most production work lives in private Levo.ai repos. Public activity reflects open tooling, experiments, and side projects.
 
 <div align="center">
 
@@ -149,7 +144,7 @@ CLIs, internal platforms, and debug tools engineers actually reach for. If the t
 
 ---
 
-## 🐍 Contribution Snake
+## Contribution Snake
 
 <div align="center">
 
@@ -163,29 +158,29 @@ CLIs, internal platforms, and debug tools engineers actually reach for. If the t
 
 ---
 
-## 🧠 Currently Exploring
+## Currently Exploring
 
 ```go
 type Focus struct {
-	Topic  string
-	Why    string
+    Topic string
+    Why   string
 }
 
 currentWork := []Focus{
-	{"eBPF + XDP",             "Wire-level packet processing — no kernel modules, no compromises"},
-	{"Agentic Debug Tooling",  "AI-assisted root cause analysis for production incidents"},
-	{"API Behavioral Drift",   "Detecting when API behavior deviates from established baseline"},
-	{"Distributed Tracing",    "Understanding what tracing frameworks actually do under the hood"},
+    {"eBPF + XDP",             "Wire-level packet processing — no kernel modules, no overhead assumptions"},
+    {"Agentic Debug Tooling",  "AI-assisted root cause analysis for production incidents"},
+    {"API Behavioral Drift",   "Detecting when APIs deviate from established production baselines"},
+    {"OpenTelemetry Internals","What observability frameworks actually do — and what they miss"},
 }
 ```
 
 ---
 
-## 🤝 Let's Talk
+## Let's Talk
 
-The best things I've built started with *"have you seen this weird edge case?"*
+The best systems I've built started with *"have you seen this weird edge case?"*
 
-If you're working on **backend infrastructure, API security, platform engineering, or observability tooling** — or building something early-stage where architecture decisions still matter — I want to hear about it.
+If you're working on **backend infrastructure, API security, platform engineering, or observability** — or if you're building something early-stage where architecture decisions still matter — I want to hear about it.
 
 <div align="center">
 
@@ -202,42 +197,3 @@ If you're working on **backend infrastructure, API security, platform engineerin
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0e75b6,40:0a192f,75:060d1f,100:0d1117&height=130&section=footer" />
 
 </div>
-
----
-
-<details>
-<summary>⚙️ Enable the contribution snake animation</summary>
-
-<br/>
-
-Create `.github/workflows/snake.yml` in this repo:
-
-```yaml
-name: Generate Snake Animation
-
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-Then: **Actions → Generate Snake Animation → Run workflow**
-
-</details>
