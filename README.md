@@ -7,7 +7,7 @@
 <div align="center">
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3000&pause=1200&color=58A6FF&center=true&vCenter=true&width=860&lines=eBPF+sensor+%C2%B7+Windows+PCAP+%C2%B7+IIS+filter+%C2%B7+API+Security;45%25+latency+cut.+62.5%25+faster+APIs.+Numbers+from+production.;Founding+Engineer+%40+Levo.ai+%E2%80%94+4%2B+years+shipping+real+infra;Open+to+roles+where+systems+depth+actually+matters" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3000&pause=1200&color=58A6FF&center=true&vCenter=true&width=860&lines=I+don%27t+wait+for+specs.+I+find+the+problem+and+ship+the+fix.;eBPF+sensor+%C2%B7+Windows+PCAP+%C2%B7+IIS+filter+%C2%B7+API+Security;45%25+latency+cut.+62.5%25+faster+APIs.+Real+production+numbers.;Founding+Engineer+%40+Levo.ai+%E2%80%94+Open+to+What%27s+Next" alt="Typing SVG" />
 </a>
 
 <br/><br/>
@@ -34,43 +34,62 @@
 
 ---
 
-## Who Am I
+<div align="center">
 
-I'm a backend and systems engineer with **4+ years** shipping production infrastructure that enterprise teams depend on daily.
+### `4+ years` &nbsp;·&nbsp; `11 systems shipped to production` &nbsp;·&nbsp; `2 startups tried` &nbsp;·&nbsp; `0 problems handed back unsolved`
 
-At **[Levo.ai](https://levo.ai)** as Founding Engineer, I've built:
-- A **Windows PCAP sensor** as a Windows service for real-time network traffic capture — improved threat detection coverage by **30%**
-- A **native IIS HTTP/HTTPS filter** at the kernel level for enterprise IIS workloads — increased observability by **40%**
-- **eBPF traffic capture with OpenSSL + BoringSSL TLS inspection** — expanded TLS coverage across **60% of observed environments**
-- The **API security engine** extended from REST-only → GraphQL (auth, batching, introspection, injection) + SOAP
-- An **agentless HAR-based API discovery** approach that cut onboarding friction and drove **+20% customer adoption**
-- A **CLI security testing tool from 0→1** — terminal-first, supporting auth, traffic uploads, and scan triggers
-- **Flask → FastAPI** migration across services — **45% latency reduction**, **2× request throughput**
-
-At **IndiaMART** (India's largest B2B marketplace), I ran ML search infrastructure at scale:
-- Built a **cache layer** that dropped response times from **40ms → 15ms** (62.5% improvement) under millions of daily queries
-- API integrations with ML models maintaining **98.9% uptime** while improving search accuracy by 20%
-- Automated **90% of data extraction**, eliminating 60% of manual effort
-
-I think in systems. I care about what code *actually does* under real load — not what it does in a sandbox.
+</div>
 
 ---
 
-## Shipped — Production Systems With Measurable Outcomes
+## The Real Introduction
 
-| | What I Shipped | Where | Outcome |
-|---|---|---|---|
-| 🔬 | eBPF sensor + OpenSSL/BoringSSL TLS inspection | Levo.ai | TLS traffic visibility across **60% of envs** |
-| 🪟 | Windows PCAP sensor as a Windows service | Levo.ai | **+30%** threat detection coverage |
-| 🔌 | Native IIS HTTP/HTTPS kernel filter | Levo.ai | **+40%** observability across enterprise IIS |
-| 🛡️ | GraphQL security engine (auth + batching + injection) | Levo.ai | Full modern API stack coverage |
-| 🛠️ | API security CLI — built from zero | Levo.ai | Terminal-first testing: auth, upload, scan |
-| 📄 | Agentless HAR-based API discovery | Levo.ai | **+20%** customer adoption |
-| ⚡ | Flask → FastAPI service migration | Levo.ai | **45% latency drop**, **2× throughput** |
-| 📡 | Signoz observability rollout across all apps | Levo.ai | **30% faster** incident resolution |
-| 🗄️ | ML search cache (Redis-backed) | IndiaMART | **40ms → 15ms** response (62.5% faster) |
-| 🤖 | ML model + search API infra | IndiaMART | **98.9% uptime**, 20% search accuracy gain |
-| 📦 | SQL-driven data pipeline automation | IndiaMART | **90% automated**, 60% less manual effort |
+I'm not a task-taker.
+
+I'm the engineer you hand a problem to and get back a **working, production-ready solution** — with no spec doc, no PM, and no hand-holding required.
+
+At **Levo.ai**, I joined as a founding engineer when the product was still being defined. I talked to enterprise customers to understand their pain, identified the gaps in our security coverage, designed the systems from scratch, and shipped them. Everything I've built is running in production right now, at real companies, handling real traffic.
+
+Before that, I ran ML search infrastructure at **IndiaMART** — one of India's largest B2B platforms — keeping systems at 98.9% uptime under millions of daily queries while cutting response times in half.
+
+And before that? I tried to build two companies. **Both failed.** I learned more from those 18 months than from any course, any bootcamp, or any job I've had. I know what it means to own something completely — from customer conversation to architecture to deployment to post-mortem.
+
+That's why "Founding Engineer" isn't just a title for me. **It's how I think.**
+
+---
+
+## What I've Shipped — With Receipts
+
+| | System | Impact |
+|---|---|---|
+| 🔬 | **eBPF traffic sensor** with OpenSSL + BoringSSL TLS inspection | TLS visibility across **60% of observed customer environments** |
+| 🪟 | **Windows PCAP sensor** as a persistent Windows service | **+30%** threat detection coverage for enterprise clients |
+| 🔌 | **Native IIS HTTP/HTTPS kernel filter** for enterprise IIS workloads | **+40%** observability, unlocked forensic analysis at wire level |
+| 🛡️ | **GraphQL security engine** — auth, batching, introspection, injection tests | Full modern API coverage: REST + GraphQL + SOAP under one engine |
+| 🛠️ | **API security CLI** built 0→1 | Terminal-first testing: auth flows, traffic uploads, scan triggers |
+| 📄 | **Agentless HAR-based API discovery** | **+20%** customer adoption by eliminating the agent install step |
+| ⚡ | **Flask → FastAPI** service migration | **45% latency reduction**, **2× request throughput** |
+| 📡 | **Signoz observability** rollout across all services | **30% faster** incident resolution across the engineering team |
+| 🗄️ | **Redis cache layer** for ML search at IndiaMART | **40ms → 15ms** response time — 62.5% improvement at millions-of-queries scale |
+| 🤖 | **ML model + search API infrastructure** at IndiaMART | **98.9% uptime**, 20% search accuracy improvement, 30% faster queries |
+| 📦 | **SQL-driven data pipeline automation** | **90% of extraction automated**, 60% manual effort eliminated |
+
+---
+
+## I've Also Tried to Build Companies
+
+Most engineers write code. Fewer try to build products. I've done both — and failed at it — which is worth more than you'd think.
+
+**Build Verge Inc** — *AI-Powered AEC Platform (failed)*
+> Collaborated with Stanford-educated engineers to build an NLP + BIM platform that automated construction workflows using LLMs. We generated rooms, walls, doors, and structural elements from language prompts. We ran into product-market fit issues and didn't get funding. The research continues.
+
+**Washbe** — *On-Demand Laundry Service (failed)*
+> Launched a React Native-based laundry platform with real-time scheduling for campus users. COVID hit. The market changed faster than we could pivot. We didn't make it.
+
+Both failed. Both taught me things you can't learn from a job description:
+- How to talk to customers and understand what they actually need
+- How to make architectural decisions under complete uncertainty
+- How to ship fast, break things, and keep going anyway
 
 ---
 
@@ -110,7 +129,7 @@ I think in systems. I care about what code *actually does* under real load — n
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
-**Observability & Monitoring**
+**Observability**
 
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
 ![Signoz](https://img.shields.io/badge/Signoz-F46800?style=for-the-badge&logo=grafana&logoColor=white)
@@ -128,7 +147,7 @@ I think in systems. I care about what code *actually does* under real load — n
 
 ## GitHub Stats
 
-> Most production work lives in private Levo.ai repos. Public activity reflects open tooling, experiments, and side projects.
+> Most production work lives in private Levo.ai repos. Public activity is open tooling, side projects, and experiments.
 
 <div align="center">
 
@@ -167,10 +186,10 @@ type Focus struct {
 }
 
 currentWork := []Focus{
-    {"eBPF + XDP",             "Wire-level packet processing — no kernel modules, no overhead assumptions"},
-    {"Agentic Debug Tooling",  "AI-assisted root cause analysis for production incidents"},
-    {"API Behavioral Drift",   "Detecting when APIs deviate from established production baselines"},
-    {"OpenTelemetry Internals","What observability frameworks actually do — and what they miss"},
+    {"eBPF + XDP",              "Wire-level packet processing — no kernel modules, no overhead assumptions"},
+    {"Agentic Debug Tooling",   "AI-assisted root cause analysis for production incidents"},
+    {"API Behavioral Drift",    "Detecting when APIs deviate from their production baselines"},
+    {"OpenTelemetry Internals", "What tracing frameworks actually do — and what they still miss"},
 }
 ```
 
@@ -178,9 +197,9 @@ currentWork := []Focus{
 
 ## Let's Talk
 
-The best systems I've built started with *"have you seen this weird edge case?"*
+I'm looking for a team that's **building something hard** — where the problems aren't solved yet, the architecture isn't locked in, and engineers are expected to think, not just execute.
 
-If you're working on **backend infrastructure, API security, platform engineering, or observability** — or if you're building something early-stage where architecture decisions still matter — I want to hear about it.
+If that's you, let's talk.
 
 <div align="center">
 
